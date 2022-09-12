@@ -10,9 +10,6 @@ all: help
 ## ------------------------------------------------------------------------
 ## 	help			Displays a list of commands
 
-AWS_S3_LOCAL_BUCKET=searchevents
-MAKES_AND_MODELS_BUCKET=makesandmodels
-STOPWORDS_BUCKET=stopwords
 
 .PHONY : help
 help : Makefile
